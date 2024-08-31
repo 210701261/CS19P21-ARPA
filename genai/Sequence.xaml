@@ -1,0 +1,144 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="834.4,694.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="449.6,629.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="abc" />
+      <Variable x:TypeArguments="x:String" Name="hro" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <isactr:ConnectorActivity Configuration="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" ConnectionId="ea60eef3-9b74-4b73-926c-f29f5442e6dc" DisplayName="Summarize Text" sap:VirtualizedContainerService.HintSize="387.2,392" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="d82ffa74-9757-317d-8c48-1a3a1b4be976">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="modelName" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">gpt-4o-2024-05-13</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="prompt" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String" xml:space="preserve">Semantic activities are specifically designed for working with forms, offering a direct and powerful method for data extraction and data input.
+
+These activities allow you to utilize a flexible approach, while the intricate details are handled by our AI and advanced internal components, such as:
+
+AI-powered DOM Extraction Engine: It extracts all usable UI elements in the form.
+Semantic Matching Engine: Adds resilience to your automations by semantically matching text labels, ensuring stability against UI changes.
+Semantic Targeting and Execution Engine: Eliminates traditional selector-based challenges, enabling seamless targeting and execution without the usual complexity and resilience issues related to using selectors.</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="detectInputLanguage" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="outputLanguage" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">English</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_summary" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="x:String" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="maxWordCount" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Int64">30</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="summaryFormat" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">Paragraph</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="temperature" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Double">0.5</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[hro]" />
+  </Sequence>
+</Activity>
